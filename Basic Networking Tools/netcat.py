@@ -18,4 +18,5 @@ def execute(cmd):
     output = subprocess.check_output(shlex.split(cmd), stderr=subprocess.STDERR)
 
     return output.decode()
+#The argparse module makes it easy to write user-friendly command-line interfaces.
 
